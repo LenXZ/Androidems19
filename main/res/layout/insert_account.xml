@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_account"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="账户类型"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/in_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户     ID"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_userID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入账户ID"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密         码"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓         名"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入姓名" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年         级"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入年级" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="系         别"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入系别" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电         话"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/in_tele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入电话"/>
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/in_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/in_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/Myosotis"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

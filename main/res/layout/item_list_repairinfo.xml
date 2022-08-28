@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/infoID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/damageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/damageDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/damageCause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/repairDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/repairPersonnel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textColor="#1D1D1C"
+        android:textSize="14sp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入维修信息"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息编号"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/infoID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入信息编号"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备名称"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/deviceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请输入设备编号       "/>
+            <TextView
+                android:id="@+id/deviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备名称"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/selectDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择设备"
+                android:backgroundTint="@color/Shampoo"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="损坏日期"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/damageDate_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择日期"
+                android:backgroundTint="@color/Shampoo"/>
+
+            <Button
+                android:id="@+id/damageDate_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:backgroundTint="@color/Myosotis"/>
+
+            <TextView
+                android:id="@+id/damageDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="损坏程度"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/damageDegree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="4dp" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="损坏原因"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/damageCause"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入损坏原因" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="维修日期"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/repairDate_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择日期"
+                android:backgroundTint="@color/Shampoo"/>
+
+            <Button
+                android:id="@+id/repairDate_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:backgroundTint="@color/Myosotis"/>
+
+            <TextView
+                android:id="@+id/repairDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="维修人员"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/repairPersonnel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入维修人员" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="维修花费"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="请输入维修花费" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="处理状态"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入处理状态" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="录入人员"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="录入信息人ID           " />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="检验人员"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/selectUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择用户"
+                android:backgroundTint="@color/Shampoo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备负责人"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/principalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="负责人员"
+                android:textSize="18dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/in_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/in_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/Myosotis"/>
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

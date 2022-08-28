@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设备信息管理"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/btn_useInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用信息管理"
+            android:backgroundTint="@color/Myosotis"/>
+
+        <Button
+            android:id="@+id/btn_repairInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="维修信息管理"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/btn_checkInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检验信息管理"
+            android:backgroundTint="@color/Myosotis"/>
+
+        <Button
+            android:id="@+id/btn_checkUseInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认使用信息"
+            android:backgroundTint="@color/Shampoo"/>
+        <Button
+            android:id="@+id/btn_modifyMyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改我的信息"
+            android:backgroundTint="@color/Myosotis"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

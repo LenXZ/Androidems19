@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="599dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入使用信息"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息编号"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/infoID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入信息编号" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备名称"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/deviceID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请输入设备编号       " />
+
+            <TextView
+                android:id="@+id/deviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备名称"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/selectDevice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择设备"
+                android:backgroundTint="@color/Shampoo"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用日期"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/useDate_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择日期"
+                android:backgroundTint="@color/Shampoo"/>
+
+            <Button
+                android:id="@+id/useDate_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:backgroundTint="@color/Myosotis"/>
+
+            <TextView
+                android:id="@+id/useDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用人员"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请输入使用人员       " />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用人员"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/selectUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择用户"
+                android:backgroundTint="@color/Shampoo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备状态(使用前)"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/statusBefore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="4dp"
+                android:paddingBottom="15dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备状态(使用后)"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/statusAfter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingLeft="4dp"
+                android:paddingBottom="15dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备         注"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/remarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入备注" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/in_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/in_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/Myosotis"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:background="@color/Myosotis">
+
+        <TextView
+            android:id="@+id/infoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="信息编号"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/deviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="设备名称"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/damageDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="损坏日期"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/damageDegree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="损坏程度"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/damageCause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="损坏原因"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/repairDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="维修日期"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/repairPersonnel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="维修人员"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="维修花费"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="处理状态"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:text="负责人"
+            android:textColor="#1D1D1C"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/layout_repairinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

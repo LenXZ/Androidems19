@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accountTitle">
+        <item>类型</item>
+        <item>用户名</item>
+        <item>密码</item>
+        <item>用户名</item>
+        <item>年级</item>
+        <item>系别</item>
+        <item>电话</item>
+    </string-array>
+</resources>

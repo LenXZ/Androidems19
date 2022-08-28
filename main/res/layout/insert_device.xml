@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入设备信息"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备编号"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/deviceID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入设备编号"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备名称"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/deviceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入设备名称"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="规格型号"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入规格型号" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生产厂家"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/manufactor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入生产厂家" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登记日期"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/recordDate_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择日期"
+                android:backgroundTint="@color/Shampoo"/>
+
+            <Button
+                android:id="@+id/recordDate_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择时间"
+                android:backgroundTint="@color/Myosotis"/>
+
+            <TextView
+                android:id="@+id/recordDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="维修次数"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/maintenanceTimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="请输入维修次数"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="负责人员"
+                android:textSize="18dp" />
+            <EditText
+                android:id="@+id/userID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请输入负责人ID       "/>
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="负责人员"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/selectUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择人员"
+                android:backgroundTint="@color/Shampoo"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/in_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/Shampoo"/>
+
+        <Button
+            android:id="@+id/in_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/Myosotis"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

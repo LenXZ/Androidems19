@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#D5D5D5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrayDark">#808080</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="bg_line">#E7E7E7</color>
+    <color name="Shampoo">#33a3dc</color>
+    <color name="Myosotis">#7bbfea</color>
+    <!--ProgressWheel-->
+    <color name="ProgressWheel_color">#489df3</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+</resources>

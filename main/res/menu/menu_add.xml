@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/id_add_item" android:title="添加数据"/>
+    <item android:id="@+id/id_select_item" android:title="查找数据"/>
+    <item android:id="@+id/id_refresh_item" android:title="刷新"/>
+
+</menu>
